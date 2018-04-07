@@ -7,7 +7,6 @@ https://nodejs.org/jp/
 ### API Docs
 Stabilityをチェック。高いほど安定。
 
-
 ### リクエストを捌く方式
 ・スレッドモデル（Apache）
 ・イベントループ（Node.js）
