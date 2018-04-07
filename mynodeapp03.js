@@ -20,6 +20,7 @@ server.on('request', function(req, res) { //コールバック関数の引数に
             msg = "about me";
             break;
         case '/file':
+/*        
             fs.readFile(__dirname + '/public_html/hello.html', 'utf-8', function(err, data) {
                 // __dirname  現在のディレクトリ
                 if (err) {
@@ -31,6 +32,8 @@ server.on('request', function(req, res) { //コールバック関数の引数に
                 res.write(data);
                 res.end();
             });
+*/
+            msg = 'file';
             break;
         default:
             msg = 'wrong page';
