@@ -5,9 +5,10 @@ var http = require('http'),
 var server = http.createServer();
 server.on('request',doRequest);
 server.listen(settings.PORT_NUMBER, settings.IP_ADDRESS);
+//server.listen(1337);
 
 function doRequest(req, res){
-    fs.readFile('./index.html','UTF-8',doRead)
+    fs.readFile('./MyPage01.html','UTF-8',doRead)
     var title = "Sample Page";
     var message = "This is test message";
 
